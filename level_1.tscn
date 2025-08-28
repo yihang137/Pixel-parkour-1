@@ -1,6 +1,6 @@
 [gd_scene load_steps=3 format=3 uid="uid://b11tk8fjcdmuj"]
 
-[ext_resource type="PackedScene" uid="uid://jqlw0jei478y" path="res://role.tscn" id="1_wtcfe"]
+[ext_resource type="PackedScene" uid="uid://jqlw0jei478y" path="res://role.tscn" id="1_3hls8"]
 
 [sub_resource type="WorldBoundaryShape2D" id="WorldBoundaryShape2D_0e48y"]
 
@@ -11,7 +11,7 @@ format = 2
 
 [node name="TileMapLayer" type="TileMapLayer" parent="TileMap"]
 
-[node name="role" parent="." instance=ExtResource("1_wtcfe")]
+[node name="role" parent="." instance=ExtResource("1_3hls8")]
 
 [node name="Camera2D2" type="Camera2D" parent="role"]
 zoom = Vector2(4, 4)

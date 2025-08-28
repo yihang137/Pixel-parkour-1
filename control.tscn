@@ -1,0 +1,46 @@
+[gd_scene load_steps=3 format=3 uid="uid://cos3qgg5prq82"]
+
+[ext_resource type="Script" uid="uid://c35ab4kq1vyru" path="res://control.gd" id="1_0fbet"]
+
+[sub_resource type="Theme" id="Theme_0fbet"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_0fbet")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+scale = Vector2(28.7523, 16.1416)
+
+[node name="level_1" type="Button" parent="."]
+layout_mode = 0
+offset_left = 507.0
+offset_top = 204.0
+offset_right = 566.0
+offset_bottom = 245.0
+
+[node name="level_2" type="Button" parent="."]
+layout_mode = 0
+offset_left = 507.0
+offset_top = 249.0
+offset_right = 567.0
+offset_bottom = 293.0
+theme = SubResource("Theme_0fbet")
+
+[node name="level_3" type="Button" parent="."]
+layout_mode = 0
+offset_left = 508.0
+offset_top = 300.0
+offset_right = 568.0
+offset_bottom = 340.0
+
+[connection signal="button_down" from="level_1" to="." method="_on_level_1_button_down"]
+[connection signal="button_down" from="level_2" to="." method="_on_level_2_button_down"]
+[connection signal="button_down" from="level_3" to="." method="_on_level_3_button_down"]
