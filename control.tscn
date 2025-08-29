@@ -1,8 +1,94 @@
-[gd_scene load_steps=3 format=3 uid="uid://cos3qgg5prq82"]
+[gd_scene load_steps=16 format=3 uid="uid://cos3qgg5prq82"]
 
 [ext_resource type="Script" uid="uid://c35ab4kq1vyru" path="res://control.gd" id="1_0fbet"]
+[ext_resource type="Texture2D" uid="uid://5dsttcd7dwyq" path="res://素材/人物/图片_20250826121252_57_27-removebg-preview.png" id="2_62e2m"]
 
 [sub_resource type="Theme" id="Theme_0fbet"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_157ik"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(0, 0, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_fs5dc"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(67, 0, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_6nfqy"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(134, 0, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_qh0rw"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(134, 70, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ihboc"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(67, 70, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_jnjvv"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(0, 70, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_lf0ir"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(0, 140, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_yk8by"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(67, 140, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_sxx4f"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(134, 140, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kc4gv"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(134, 210, 67, 70)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ox3h7"]
+atlas = ExtResource("2_62e2m")
+region = Rect2(67, 210, 67, 70)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_qtu10"]
+animations = [{
+"frames": [{
+"duration": 1.2,
+"texture": SubResource("AtlasTexture_157ik")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_fs5dc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_6nfqy")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_qh0rw")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ihboc")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_jnjvv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_lf0ir")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_yk8by")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_sxx4f")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kc4gv")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ox3h7")
+}],
+"loop": true,
+"name": &"new_animation",
+"speed": 10.0
+}]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -40,6 +126,14 @@ offset_left = 508.0
 offset_top = 300.0
 offset_right = 568.0
 offset_bottom = 340.0
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(316, 365)
+scale = Vector2(2.29628, 2.29628)
+sprite_frames = SubResource("SpriteFrames_qtu10")
+animation = &"new_animation"
+autoplay = "new_animation"
+frame_progress = 0.401808
 
 [connection signal="button_down" from="level_1" to="." method="_on_level_1_button_down"]
 [connection signal="button_down" from="level_2" to="." method="_on_level_2_button_down"]
