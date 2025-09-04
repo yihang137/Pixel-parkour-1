@@ -1,7 +1,7 @@
 extends CharacterBody2D
 	
-@export var speed: float = 200          # 水平移动速度
-@export var jump_force: float = 400     # 跳跃初速度
+@export var speed: float = 150          # 水平移动速度
+@export var jump_force: float = 300     # 跳跃初速度
 @export var gravity: float = 1200       # 重力
 @export var fall_multiplier: float = 1.5  # 下落加速，让跳跃自然
 
