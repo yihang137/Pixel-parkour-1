@@ -36,3 +36,8 @@ func _physics_process(delta: float) -> void:
 func die() -> void:
 	global_position = respawn_position
 	velocity = Vector2.ZERO
+
+
+func _on_死亡_body_entered(body: Node2D) -> void:
+	if body.is_in_group("player"):
+		body.die()

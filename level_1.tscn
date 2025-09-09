@@ -132,7 +132,7 @@ metadata/_edit_use_anchors_ = true
 script = ExtResource("10_gyffv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="死亡"]
-position = Vector2(131, 118)
+position = Vector2(129, 286)
 shape = SubResource("WorldBoundaryShape2D_1pe0h")
 
 [connection signal="button_down" from="CanvasLayer/位置/home" to="CanvasLayer/位置" method="_on_home_button_down"]
