@@ -20,6 +20,10 @@ func _physics_process(delta: float) -> void:
 
 	velocity.x = direction * speed
 
+	# 翻转角色方向
+	if direction != 0:
+		$AnimatedSprite2D.flip_h = direction < 0  # 左移 flip_h = true，右移 flip_h = false
+
 	# 跳跃
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		velocity.y = -jump_force
@@ -36,7 +40,6 @@ func _physics_process(delta: float) -> void:
 func die() -> void:
 	global_position = respawn_position
 	velocity = Vector2.ZERO
-
 
 func _on_死亡_body_entered(body: Node2D) -> void:
 	if body.is_in_group("player"):
