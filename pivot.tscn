@@ -1,0 +1,40 @@
+[gd_scene load_steps=6 format=3 uid="uid://db3qe0ax6xy5a"]
+
+[ext_resource type="Script" uid="uid://cdoke10ot3kxv" path="res://arm.gd" id="1_8a8fp"]
+[ext_resource type="Texture2D" uid="uid://dr7nssl3klob7" path="res://素材/背景/图片_20250911120642_137_27-removebg-preview-1.png.png" id="2_qbqea"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_idc05"]
+radius = 6.08276
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wfknp"]
+size = Vector2(3, 16)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5vtjl"]
+radius = 6.0
+
+[node name="Pivot" type="StaticBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 11)
+shape = SubResource("CircleShape2D_idc05")
+
+[node name="Arm" type="RigidBody2D" parent="."]
+script = ExtResource("1_8a8fp")
+
+[node name="Sprite2D" type="Sprite2D" parent="Arm"]
+texture = ExtResource("2_qbqea")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Arm"]
+position = Vector2(-1.5, -5)
+shape = SubResource("RectangleShape2D_wfknp")
+
+[node name="PinJoint2D" type="PinJoint2D" parent="."]
+position = Vector2(54, 55)
+node_a = NodePath("..")
+node_b = NodePath("../Arm")
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-1, 11)
+shape = SubResource("CircleShape2D_5vtjl")
