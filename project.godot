@@ -15,6 +15,18 @@ run/main_scene="uid://cos3qgg5prq82"
 config/features=PackedStringArray("4.4", "GL Compatibility")
 config/icon="res://icon.svg"
 
+[autoload]
+
+"金币"="*res://金币.gd"
+
+[editor]
+
+version_control/autoload_on_startup=true
+
+[global_group]
+
+player=""
+
 [input]
 
 move_left={

@@ -91,7 +91,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_qymgs"]
 radius = 10.0499
 
-[node name="role" type="CharacterBody2D"]
+[node name="role" type="CharacterBody2D" groups=["player"]]
 script = ExtResource("1_qymgs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

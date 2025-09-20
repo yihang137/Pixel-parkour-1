@@ -1,0 +1,80 @@
+[gd_scene load_steps=14 format=3 uid="uid://bac66nfm65nwn"]
+
+[ext_resource type="Script" uid="uid://ccdlseaji3uj8" path="res://node_2d.gd" id="1_i2p10"]
+[ext_resource type="Script" uid="uid://kcyr4lt0ama5" path="res://金币.gd" id="1_w15qu"]
+[ext_resource type="Texture2D" uid="uid://bk2offytktiea" path="res://素材/背景/8.png" id="2_q2qcr"]
+[ext_resource type="Texture2D" uid="uid://cdem43bq7jgb5" path="res://素材/背景/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1j.png" id="3_w15qu"]
+[ext_resource type="Texture2D" uid="uid://87pr33ojagj4" path="res://素材/背景/7.png" id="4_kpwnm"]
+
+[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2x1uq"]
+load_path = "res://.godot/imported/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1.png.png-e147a66fe1b14c9ad272a496bc86aae5.ctex"
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ur7dq"]
+atlas = SubResource("CompressedTexture2D_2x1uq")
+region = Rect2(0, 0, 74, 280)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_p2qtg"]
+atlas = ExtResource("3_w15qu")
+region = Rect2(0, 0, 84, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_7r02a"]
+atlas = ExtResource("3_w15qu")
+region = Rect2(84, 0, 84, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_dr81p"]
+atlas = ExtResource("3_w15qu")
+region = Rect2(168, 0, 84, 139)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_kqkxm"]
+atlas = SubResource("CompressedTexture2D_2x1uq")
+region = Rect2(444, 0, 74, 280)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_cbric"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_ur7dq")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_q2qcr")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_p2qtg")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_7r02a")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_dr81p")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_kpwnm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_kqkxm")
+}],
+"loop": true,
+"name": &"default",
+"speed": 10.0
+}]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_qf683"]
+radius = 32.0156
+
+[node name="Node2D" type="Node2D"]
+script = ExtResource("1_w15qu")
+
+[node name="金币" type="Area2D" parent="."]
+script = ExtResource("1_i2p10")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="金币"]
+position = Vector2(0, -14)
+sprite_frames = SubResource("SpriteFrames_cbric")
+autoplay = "default"
+frame = 2
+frame_progress = 0.228104
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="金币"]
+shape = SubResource("CircleShape2D_qf683")
+
+[connection signal="body_entered" from="金币" to="金币" method="_on_body_entered"]
