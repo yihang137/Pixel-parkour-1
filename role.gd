@@ -9,7 +9,7 @@ var respawn_position: Vector2   # 出生点
 
 func _ready() -> void:
 	respawn_position = global_position
-	add_to_group("player")   # 玩家加入组，方便死亡线识别
+	add_to_group("player")   # 玩家加入组
 
 func _physics_process(delta: float) -> void:
 	var direction := 0
@@ -37,10 +37,17 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 
+	# -----------------------------
+	# 碰到任何鬼魂(enemy组)就死亡
+	for i in range(get_slide_collision_count()):
+		var collision = get_slide_collision(i)
+		var obj = collision.get_collider()
+		if obj and obj.is_in_group("enemy") and obj.has_method("die"):
+			die()
+
 func die() -> void:
 	global_position = respawn_position
 	velocity = Vector2.ZERO
+	print("You died!")
 
-func _on_死亡_body_entered(body: Node2D) -> void:
-	if body.is_in_group("player"):
-		body.die()
+		

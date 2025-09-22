@@ -1,3 +1,18 @@
-[gd_scene format=3 uid="uid://3f7prni1j6e5"]
+[gd_scene load_steps=4 format=3 uid="uid://dvp21chc3gt3f"]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource type="Script" uid="uid://b4jegb0k6dnit" path="res://鬼魂.gd" id="1_28ik2"]
+[ext_resource type="Texture2D" uid="uid://qv2ady5wlrcl" path="res://素材/背景/图片_20250909113541_122_27-removebg-preview-1.png.png" id="2_3h040"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_yk7so"]
+size = Vector2(22, 27)
+
+[node name="鬼魂" type="CharacterBody2D" groups=["enemy"]]
+scale = Vector2(0.633, 0.633)
+script = ExtResource("1_28ik2")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_3h040")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-1, 0.5)
+shape = SubResource("RectangleShape2D_yk7so")

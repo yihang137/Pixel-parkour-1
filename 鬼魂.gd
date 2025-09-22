@@ -1,14 +1,16 @@
 extends CharacterBody2D
 
-@export var speed := 150
-var direction := 1   # 1 向右，-1 向左
+@export var speed: float = 100
+var direction: int = 1
 
 func _physics_process(delta):
+	# 设置水平速度
 	velocity.x = direction * speed
 	velocity.y = 0
+
+	# 移动
 	move_and_slide()
 
-	# 碰到墙就换方向
+	# 碰到墙壁反向
 	if is_on_wall():
 		direction *= -1
-		$Sprite2D.flip_h = direction < 0  # 翻转贴图
