@@ -18,3 +18,8 @@ func _physics_process(delta):
 	# 碰到墙壁反向
 	if is_on_wall():
 		direction *= -1
+
+
+func _on_area_2d_body_entered(body: Node2D) -> void:
+	if body.is_in_group("player"):
+		body.die()
