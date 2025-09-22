@@ -201,7 +201,7 @@ size = Vector2(27, 24)
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_00ld1"]
 size = Vector2(180, 41)
 
-[node name="Node2D" type="Node2D"]
+[node name="Node2D" type="Node2D" groups=["player"]]
 
 [node name="TileMap" type="TileMap" parent="."]
 position = Vector2(0, 7)
@@ -215,7 +215,7 @@ tile_map_data = PackedByteArray("AABcAM3/AQAAAAEAAABdAM3/AQABAAEAAABcAM7/AQAAAAA
 tile_set = SubResource("TileSet_1pe0h")
 
 [node name="role" parent="." instance=ExtResource("1_3hls8")]
-position = Vector2(3504, -696)
+position = Vector2(3434, -693)
 scale = Vector2(0.721084, 0.721084)
 
 [node name="Camera2D2" type="Camera2D" parent="role"]
@@ -248,7 +248,7 @@ offset_bottom = 63.8995
 scale = Vector2(0.124626, 0.125621)
 texture = ExtResource("13_kb5eu")
 
-[node name="死亡" type="Area2D" parent="."]
+[node name="死亡" type="Area2D" parent="." groups=["player"]]
 script = ExtResource("10_gyffv")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="死亡"]
@@ -264,7 +264,7 @@ position = Vector2(406.5, 29)
 shape = SubResource("RectangleShape2D_ggavl")
 
 [node name="CollisionShape2D5" type="CollisionShape2D" parent="死亡"]
-position = Vector2(1202.5, -307)
+position = Vector2(1197, -270)
 shape = SubResource("RectangleShape2D_65or1")
 
 [node name="CollisionShape2D6" type="CollisionShape2D" parent="死亡"]

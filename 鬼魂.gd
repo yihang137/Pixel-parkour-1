@@ -3,6 +3,10 @@ extends CharacterBody2D
 @export var speed: float = 100
 var direction: int = 1
 
+
+func _ready() -> void:
+	add_to_group("enemy") 
+	
 func _physics_process(delta):
 	# 设置水平速度
 	velocity.x = direction * speed

@@ -1,4 +1,4 @@
-[gd_scene load_steps=16 format=3 uid="uid://jqlw0jei478y"]
+[gd_scene load_steps=17 format=3 uid="uid://jqlw0jei478y"]
 
 [ext_resource type="Script" uid="uid://37e8h1egc8qo" path="res://role.gd" id="1_qymgs"]
 [ext_resource type="Texture2D" uid="uid://5dsttcd7dwyq" path="res://素材/人物/图片_20250826121252_57_27-removebg-preview.png" id="2_qymgs"]
@@ -91,7 +91,11 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_qymgs"]
 radius = 10.0499
 
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_qymgs"]
+size = Vector2(15, 20)
+
 [node name="role" type="CharacterBody2D" groups=["player"]]
+collision_mask = 3
 script = ExtResource("1_qymgs")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
@@ -111,3 +115,11 @@ shape = SubResource("CircleShape2D_qymgs")
 position = Vector2(0, -1)
 zoom = Vector2(4, 4)
 position_smoothing_enabled = true
+
+[node name="Area2D" type="Area2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(-89.5, -10)
+shape = SubResource("RectangleShape2D_qymgs")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]
