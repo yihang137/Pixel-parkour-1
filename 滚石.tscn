@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://bw1ror1shmlra"]
+
+[ext_resource type="Script" uid="uid://s6uae1uwyjkc" path="res://滚石.gd" id="1_tc1jy"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_t2a3a"]
+
+[node name="滚石" type="CharacterBody2D"]
+script = ExtResource("1_tc1jy")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+sprite_frames = SubResource("SpriteFrames_t2a3a")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

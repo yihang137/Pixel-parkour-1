@@ -7,7 +7,6 @@
 [ext_resource type="Texture2D" uid="uid://87pr33ojagj4" path="res://素材/背景/7.png" id="4_kpwnm"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2x1uq"]
-load_path = "res://.godot/imported/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1.png.png-e147a66fe1b14c9ad272a496bc86aae5.ctex"
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_ur7dq"]
 atlas = SubResource("CompressedTexture2D_2x1uq")
