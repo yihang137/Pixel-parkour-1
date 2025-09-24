@@ -1,4 +1,5 @@
 extends CanvasLayer
 
 func _process(delta):
-	$Label.text = "Coins: " + str(金币.coins)
+	if has_node("CoinLabel"):
+		$CoinLabel.text = "Coins: " + str(金币.coins)
