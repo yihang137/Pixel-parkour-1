@@ -248,6 +248,7 @@ offset_right = 64.0
 offset_bottom = 63.8995
 scale = Vector2(0.124626, 0.125621)
 texture = ExtResource("13_kb5eu")
+metadata/_edit_use_anchors_ = true
 
 [node name="死亡" type="Area2D" parent="." groups=["enemy"]]
 script = ExtResource("10_gyffv")
