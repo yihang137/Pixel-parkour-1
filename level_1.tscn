@@ -644,10 +644,13 @@ text = "： 0"
 metadata/_edit_use_anchors_ = true
 
 [node name="ScoreLabel" type="Label" parent="HUD"]
+custom_minimum_size = Vector2(126, 59)
 offset_left = 103.0
 offset_top = 2.0
-offset_right = 397.0
+offset_right = 229.0
 offset_bottom = 106.0
+theme_override_fonts/font = ExtResource("20_3qmij")
+theme_override_font_sizes/font_size = 58
 text = "Score: "
 
 [node name="穿" parent="." instance=ExtResource("23_ethxx")]

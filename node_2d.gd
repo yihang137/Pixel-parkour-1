@@ -1,6 +1,9 @@
 extends Area2D
 
+var coins := 0
+
 func _on_body_entered(body):
-	if body.is_in_group("player"):   # 玩家触碰到金币
-		金币.coins += 1            # 金币数 +1
-		queue_free()                 # 金币消失
+	if body.is_in_group("player"):
+		var coin_manager = get_node("/root/Node2D/金币")
+		coin_manager.coins += 1
+		queue_free()
