@@ -1,7 +1,7 @@
 [gd_scene load_steps=5 format=3 uid="uid://dvp21chc3gt3f"]
 
 [ext_resource type="Script" uid="uid://b4jegb0k6dnit" path="res://鬼魂.gd" id="1_28ik2"]
-[ext_resource type="Texture2D" uid="uid://qv2ady5wlrcl" path="res://素材/背景/图片_20250909113541_122_27-removebg-preview-1.png.png" id="2_3h040"]
+[ext_resource type="Texture2D" uid="uid://qv2ady5wlrcl" path="res://素材/level 1/图片_20250909113541_122_27-removebg-preview-1.png.png" id="2_3h040"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_yk7so"]
 size = Vector2(22, 27)

@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://c23bxjakhh6fb"]
 
 [ext_resource type="Script" uid="uid://bjucptuwdqo4m" path="res://character_body_2d.gd" id="1_dbeny"]
-[ext_resource type="Texture2D" uid="uid://qv2ady5wlrcl" path="res://素材/背景/图片_20250909113541_122_27-removebg-preview-1.png.png" id="2_4cmkh"]
+[ext_resource type="Texture2D" uid="uid://qv2ady5wlrcl" path="res://素材/level 1/图片_20250909113541_122_27-removebg-preview-1.png.png" id="2_4cmkh"]
 [ext_resource type="Script" uid="uid://c2d2366v6xhnn" path="res://死亡.gd" id="3_g0vwv"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_bntyn"]

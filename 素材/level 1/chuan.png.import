@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b7smyigi4mw2e"
-path="res://.godot/imported/图片_20250904114125_107_27-1.png.png-257d0a6f05d5a9675372bb04447f495b.ctex"
+uid="uid://dpkc0apc1n54y"
+path="res://.godot/imported/chuan.png-f1744d83903620640da341758bad9b01.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://素材/背景/图片_20250904114125_107_27-1.png.png"
-dest_files=["res://.godot/imported/图片_20250904114125_107_27-1.png.png-257d0a6f05d5a9675372bb04447f495b.ctex"]
+source_file="res://素材/level 1/chuan.png"
+dest_files=["res://.godot/imported/chuan.png-f1744d83903620640da341758bad9b01.ctex"]
 
 [params]
 

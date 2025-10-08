@@ -2,9 +2,9 @@
 
 [ext_resource type="Script" uid="uid://ccdlseaji3uj8" path="res://node_2d.gd" id="1_i2p10"]
 [ext_resource type="Script" uid="uid://kcyr4lt0ama5" path="res://金币.gd" id="1_w15qu"]
-[ext_resource type="Texture2D" uid="uid://bk2offytktiea" path="res://素材/背景/8.png" id="2_q2qcr"]
-[ext_resource type="Texture2D" uid="uid://cdem43bq7jgb5" path="res://素材/背景/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1j.png" id="3_w15qu"]
-[ext_resource type="Texture2D" uid="uid://87pr33ojagj4" path="res://素材/背景/7.png" id="4_kpwnm"]
+[ext_resource type="Texture2D" uid="uid://bk2offytktiea" path="res://素材/level 1/8.png" id="2_q2qcr"]
+[ext_resource type="Texture2D" uid="uid://cdem43bq7jgb5" path="res://素材/level 1/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1j.png" id="3_w15qu"]
+[ext_resource type="Texture2D" uid="uid://87pr33ojagj4" path="res://素材/level 1/7.png" id="4_kpwnm"]
 
 [sub_resource type="CompressedTexture2D" id="CompressedTexture2D_2x1uq"]
 

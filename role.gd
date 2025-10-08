@@ -6,6 +6,7 @@ extends CharacterBody2D
 @export var fall_multiplier: float = 1.5  # 下落加速，让跳跃自然
 
 var respawn_position: Vector2   # 出生点
+var deaths: int = 0 
 
 func _ready() -> void:
 	respawn_position = global_position
@@ -39,6 +40,7 @@ func _physics_process(delta: float) -> void:
 
 	# -----------------------------
 func die() -> void:
+	deaths += 1   
 	global_position = respawn_position
 	velocity = Vector2.ZERO
 

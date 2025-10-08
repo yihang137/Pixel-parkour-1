@@ -1,26 +1,26 @@
 [gd_scene load_steps=48 format=4 uid="uid://b11tk8fjcdmuj"]
 
 [ext_resource type="PackedScene" uid="uid://jqlw0jei478y" path="res://role.tscn" id="1_3hls8"]
-[ext_resource type="Texture2D" uid="uid://47er1x1r240h" path="res://素材/背景/黑边.png" id="1_hbghi"]
-[ext_resource type="Texture2D" uid="uid://bqnk46llc2rw5" path="res://素材/背景/图片_20250904112832_101_27.png" id="2_rka8t"]
-[ext_resource type="Texture2D" uid="uid://uget5l50c5ga" path="res://素材/背景/7-1.png.png" id="3_27bay"]
+[ext_resource type="Texture2D" uid="uid://47er1x1r240h" path="res://素材/level 1/黑边.png" id="1_hbghi"]
+[ext_resource type="Texture2D" uid="uid://bqnk46llc2rw5" path="res://素材/level 1/图片_20250904112832_101_27.png" id="2_rka8t"]
+[ext_resource type="Texture2D" uid="uid://uget5l50c5ga" path="res://素材/level 1/7-1.png.png" id="3_27bay"]
 [ext_resource type="Script" uid="uid://npjnkdatfqw0" path="res://canvas_layer.gd" id="3_hn12h"]
-[ext_resource type="Texture2D" uid="uid://dpkc0apc1n54y" path="res://素材/背景/chuan.png" id="3_lfy8a"]
-[ext_resource type="Texture2D" uid="uid://b7smyigi4mw2e" path="res://素材/背景/图片_20250904114125_107_27-1.png.png" id="3_rka8t"]
-[ext_resource type="Texture2D" uid="uid://ced2pkewv8ify" path="res://素材/背景/4.png" id="4_1pe0h"]
-[ext_resource type="Texture2D" uid="uid://jhulpkfcg5nu" path="res://素材/背景/图片_20250904112832_101_27-1.png.png" id="4_5hph3"]
-[ext_resource type="Texture2D" uid="uid://di7fw6gtyk1gg" path="res://素材/背景/9.png" id="4_gjkv5"]
-[ext_resource type="Texture2D" uid="uid://pyxv31xsxabd" path="res://素材/背景/1.png" id="5_5rr72"]
-[ext_resource type="Texture2D" uid="uid://cv8lhmvvcsg07" path="res://素材/背景/2.png" id="6_gyffv"]
-[ext_resource type="Texture2D" uid="uid://dwjxxvus7cxxy" path="res://素材/背景/3.png" id="7_1pe0h"]
-[ext_resource type="Texture2D" uid="uid://dr7nssl3klob7" path="res://素材/背景/图片_20250911120642_137_27-removebg-preview-1.png.png" id="10_ggavl"]
+[ext_resource type="Texture2D" uid="uid://dpkc0apc1n54y" path="res://素材/level 1/chuan.png" id="3_lfy8a"]
+[ext_resource type="Texture2D" uid="uid://b7smyigi4mw2e" path="res://素材/level 1/图片_20250904114125_107_27-1.png.png" id="3_rka8t"]
+[ext_resource type="Texture2D" uid="uid://ced2pkewv8ify" path="res://素材/level 1/4.png" id="4_1pe0h"]
+[ext_resource type="Texture2D" uid="uid://jhulpkfcg5nu" path="res://素材/level 1/图片_20250904112832_101_27-1.png.png" id="4_5hph3"]
+[ext_resource type="Texture2D" uid="uid://di7fw6gtyk1gg" path="res://素材/level 1/9.png" id="4_gjkv5"]
+[ext_resource type="Texture2D" uid="uid://pyxv31xsxabd" path="res://素材/level 1/1.png" id="5_5rr72"]
+[ext_resource type="Texture2D" uid="uid://cv8lhmvvcsg07" path="res://素材/level 1/2.png" id="6_gyffv"]
+[ext_resource type="Texture2D" uid="uid://dwjxxvus7cxxy" path="res://素材/level 1/3.png" id="7_1pe0h"]
+[ext_resource type="Texture2D" uid="uid://dr7nssl3klob7" path="res://素材/level 1/图片_20250911120642_137_27-removebg-preview-1.png.png" id="10_ggavl"]
 [ext_resource type="Script" uid="uid://c2d2366v6xhnn" path="res://死亡.gd" id="10_gyffv"]
-[ext_resource type="Texture2D" uid="uid://b41c66o5gv8t0" path="res://素材/背景/images-1.png-removebg-preview-1.png.png" id="13_kb5eu"]
+[ext_resource type="Texture2D" uid="uid://b41c66o5gv8t0" path="res://素材/level 1/images-1.png-removebg-preview-1.png.png" id="13_kb5eu"]
 [ext_resource type="PackedScene" uid="uid://db3qe0ax6xy5a" path="res://pivot.tscn" id="14_ubhxj"]
 [ext_resource type="PackedScene" uid="uid://bac66nfm65nwn" path="res://金币.tscn" id="17_lhbbi"]
 [ext_resource type="Script" uid="uid://ci4y3a1vem3bm" path="res://hud.gd" id="18_gjkv5"]
 [ext_resource type="PackedScene" uid="uid://dvp21chc3gt3f" path="res://鬼魂.tscn" id="20_3o2xh"]
-[ext_resource type="FontFile" uid="uid://dum1ahkvfvud1" path="res://素材/背景/PixelifySans-VariableFont_wght.ttf" id="20_3qmij"]
+[ext_resource type="FontFile" uid="uid://dum1ahkvfvud1" path="res://素材/level 1/PixelifySans-VariableFont_wght.ttf" id="20_3qmij"]
 [ext_resource type="PackedScene" uid="uid://bw1ror1shmlra" path="res://滚石.tscn" id="23_3o2xh"]
 [ext_resource type="PackedScene" uid="uid://l6rrc8hh1dh4" path="res://穿.tscn" id="23_ethxx"]
 
@@ -216,7 +216,7 @@ tile_map_data = PackedByteArray("AABcAM3/AQAAAAEAAABdAM3/AQABAAEAAABcAM7/AQAAAAA
 tile_set = SubResource("TileSet_1pe0h")
 
 [node name="role" parent="." instance=ExtResource("1_3hls8")]
-position = Vector2(3398, -691)
+position = Vector2(-45, 14)
 scale = Vector2(0.721084, 0.721084)
 
 [node name="Camera2D2" type="Camera2D" parent="role"]
@@ -287,339 +287,339 @@ position = Vector2(232, -25)
 [node name="Pivot2" parent="Pivot" instance=ExtResource("14_ubhxj")]
 position = Vector2(570, -404)
 
-[node name="Node2D" parent="." instance=ExtResource("17_lhbbi")]
+[node name="金币" parent="." instance=ExtResource("17_lhbbi")]
 position = Vector2(15, 1)
 scale = Vector2(0.111977, 0.111977)
 
-[node name="Node2D" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(375.077, 0)
 
-[node name="Node2D2" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D2" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(759.083, 0)
 
-[node name="Node2D3" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D3" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(-375.077, 0)
 
-[node name="Node2D4" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D4" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(955.552, -116.095)
 
-[node name="Node2D5" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D5" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(1134.16, -116.095)
 
-[node name="Node2D6" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D6" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(1357.42, 0)
 
-[node name="Node2D7" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D7" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(2295.11, 0)
 
-[node name="Node2D8" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D8" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(2598.74, 0)
 
-[node name="Node2D9" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D9" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(2920.24, -80.3736)
 
-[node name="Node2D10" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D10" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(3080.99, -80.3736)
 
-[node name="Node2D11" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D11" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(3214.94, 0)
 
-[node name="Node2D12" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D12" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(3509.65, -80.3736)
 
-[node name="Node2D13" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D13" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(3759.7, 0)
 
-[node name="Node2D14" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D14" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(3965.1, -8.93039)
 
-[node name="Node2D15" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D15" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(4215.15, -8.93039)
 
-[node name="Node2D16" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D16" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(4349.1, -133.956)
 
-[node name="Node2D17" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D17" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(4545.57, -232.19)
 
-[node name="Node2D18" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D18" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(4750.97, -330.425)
 
-[node name="Node2D19" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D19" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(4911.72, -428.659)
 
-[node name="Node2D20" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D20" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5090.32, -509.033)
 
-[node name="Node2D21" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D21" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5286.79, -589.406)
 
-[node name="Node2D22" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D22" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5510.05, -705.501)
 
-[node name="Node2D23" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D23" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5572.57, -1223.46)
 
-[node name="Node2D24" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D24" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5894.06, -1571.75)
 
-[node name="Node2D25" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D25" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5644.01, -1223.46)
 
-[node name="Node2D26" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D26" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5599.36, -2554.09)
 
-[node name="Node2D27" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D27" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5804.76, -2214.74)
 
-[node name="Node2D28" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D28" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5911.92, -2214.74)
 
-[node name="Node2D29" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D29" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5572.57, -1884.31)
 
-[node name="Node2D30" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D30" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5644.01, -1884.31)
 
-[node name="Node2D31" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D31" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5804.76, -1571.75)
 
-[node name="Node2D32" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D32" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5688.66, -2554.09)
 
-[node name="Node2D33" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D33" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5894.05, -2893.45)
 
-[node name="Node2D34" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D34" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5804.76, -2893.45)
 
-[node name="Node2D35" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D35" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5581.49, -3250.66)
 
-[node name="Node2D36" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D36" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5679.73, -3250.66)
 
-[node name="Node2D37" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D37" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(5894.06, -3625.74)
 
-[node name="Node2D38" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D38" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(6099.46, -3625.74)
 
-[node name="Node2D39" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D39" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(6349.51, -3625.74)
 
-[node name="Node2D40" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D40" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(6617.42, -3625.74)
 
-[node name="Node2D41" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D41" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(7340.79, -3607.88)
 
-[node name="Node2D42" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D42" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(7510.46, -3607.88)
 
-[node name="Node2D43" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D43" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(8215.96, -3625.74)
 
-[node name="Node2D44" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D44" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(8394.57, -3625.74)
 rotation = -0.00919145
 
-[node name="Node2D45" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D45" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(10252.1, -3625.74)
 
-[node name="Node2D46" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D46" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(9796.64, -3625.74)
 
-[node name="Node2D47" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D47" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(10046.7, -3625.74)
 
-[node name="Node2D48" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D48" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(10850.4, -3911.51)
 
-[node name="Node2D49" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D49" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(9350.12, -3911.51)
 
-[node name="Node2D50" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D50" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(11109.4, -3911.51)
 
-[node name="Node2D51" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D51" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(11654.2, -4259.8)
 
-[node name="Node2D52" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D52" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(11841.7, -4259.8)
 
-[node name="Node2D53" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D53" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12127.5, -4491.99)
 
-[node name="Node2D54" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D54" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12377.5, -4491.99)
 
-[node name="Node2D55" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D55" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(9055.42, -3911.51)
 
-[node name="Node2D56" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D56" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12243.6, -4831.35)
 
-[node name="Node2D57" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D57" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12288.2, -5358.24)
 
-[node name="Node2D58" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D58" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12716.9, -5081.4)
 
-[node name="Node2D59" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D59" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12770.5, -5652.95)
 
-[node name="Node2D60" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D60" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(14136.8, -6269.14)
 
-[node name="Node2D61" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D61" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(13225.9, -6269.14)
 
-[node name="Node2D62" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D62" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(13556.4, -6563.85)
 
-[node name="Node2D63" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D63" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(14476.2, -6287)
 
-[node name="Node2D64" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D64" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(15012, -6269.14)
 
-[node name="Node2D65" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D65" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12940.2, -6269.14)
 
-[node name="Node2D66" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D66" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(12288.2, -5929.79)
 
-[node name="Node2D67" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D67" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(15306.7, -6287)
 
-[node name="Node2D68" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D68" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(18253.7, -6313.8)
 
-[node name="Node2D69" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D69" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(18655.6, -6313.8)
 
-[node name="Node2D70" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D70" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(17432.2, -6519.2)
 
-[node name="Node2D71" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D71" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(17726.9, -6367.38)
 
-[node name="Node2D72" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D72" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(14762, -6287.01)
 
-[node name="Node2D73" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D73" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(15547.8, -6233.42)
 
-[node name="Node2D74" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D74" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(15905.1, -6269.14)
 
-[node name="Node2D75" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D75" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(16360.5, -6287.01)
 
-[node name="Node2D76" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D76" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(17110.7, -6438.82)
 
-[node name="Node2D77" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D77" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(19057.5, -6313.8)
 
-[node name="Node2D78" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D78" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(20057.7, -6036.95)
 
-[node name="Node2D79" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D79" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(20307.7, -6045.88)
 
-[node name="Node2D80" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D80" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(19521.9, -6349.52)
 
-[node name="Node2D81" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D81" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(22067, -6010.16)
 
-[node name="Node2D82" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D82" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(21647.3, -5876.21)
 
-[node name="Node2D83" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D83" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(21066.8, -6045.88)
 
-[node name="Node2D84" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D84" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(21325.8, -6036.95)
 
-[node name="Node2D85" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D85" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(20790, -6036.95)
 
-[node name="Node2D86" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D86" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(20513.1, -6045.88)
 
-[node name="Node2D87" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D87" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(21763.4, -6036.95)
 
-[node name="Node2D88" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D88" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(22826.1, -6010.16)
 
-[node name="Node2D89" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D89" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(22451, -6010.16)
 
-[node name="Node2D90" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D90" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(25514.2, -6287.01)
 
-[node name="Node2D91" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D91" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(23174.4, -6036.95)
 
-[node name="Node2D92" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D92" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(25255.2, -6269.14)
 
-[node name="Node2D93" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D93" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(23522.7, -6036.95)
 
-[node name="Node2D94" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D94" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(23826.3, -6036.95)
 
-[node name="Node2D95" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D95" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(24058.5, -6045.88)
 
-[node name="Node2D96" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D96" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(24397.9, -6313.8)
 
-[node name="Node2D97" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D97" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(24692.6, -6295.94)
 
-[node name="Node2D98" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D98" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(24978.3, -6287)
 
-[node name="Node2D99" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D99" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(26728.7, -6287)
 
-[node name="Node2D100" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D100" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29398.9, -6367.38)
 
-[node name="Node2D101" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D101" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(26416.1, -6287)
 
-[node name="Node2D102" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D102" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29398.9, -6188.77)
 
-[node name="Node2D103" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D103" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29398.9, -6563.85)
 
-[node name="Node2D104" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D104" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29229.2, -6215.56)
 
-[node name="Node2D105" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D105" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29059.5, -6206.63)
 
-[node name="Node2D106" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D106" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29059.5, -6385.24)
 
-[node name="Node2D107" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D107" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29059.5, -6563.85)
 
-[node name="Node2D108" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D108" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29229.2, -6563.85)
 
-[node name="Node2D109" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D109" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(29229.2, -6385.24)
 
-[node name="Node2D110" parent="Node2D" instance=ExtResource("17_lhbbi")]
+[node name="Node2D110" parent="金币" instance=ExtResource("17_lhbbi")]
 position = Vector2(26112.5, -6287)
 
 [node name="HUD" type="CanvasLayer" parent="."]
@@ -642,6 +642,13 @@ theme_override_fonts/font = ExtResource("20_3qmij")
 theme_override_font_sizes/font_size = 37
 text = "： 0"
 metadata/_edit_use_anchors_ = true
+
+[node name="ScoreLabel" type="Label" parent="HUD"]
+offset_left = 103.0
+offset_top = 2.0
+offset_right = 397.0
+offset_bottom = 106.0
+text = "Score: "
 
 [node name="穿" parent="." instance=ExtResource("23_ethxx")]
 position = Vector2(3350, -741)

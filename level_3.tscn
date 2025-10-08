@@ -1,6 +1,6 @@
 [gd_scene load_steps=7 format=3 uid="uid://dh3rcfqvbmalp"]
 
-[ext_resource type="Texture2D" uid="uid://47er1x1r240h" path="res://素材/背景/黑边.png" id="1_1fhj5"]
+[ext_resource type="Texture2D" uid="uid://47er1x1r240h" path="res://素材/level 1/黑边.png" id="1_1fhj5"]
 [ext_resource type="PackedScene" uid="uid://jqlw0jei478y" path="res://role.tscn" id="2_16pka"]
 [ext_resource type="Script" uid="uid://npjnkdatfqw0" path="res://canvas_layer.gd" id="3_16pka"]
 

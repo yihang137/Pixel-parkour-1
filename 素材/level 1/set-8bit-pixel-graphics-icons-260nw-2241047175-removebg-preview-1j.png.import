@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dwjxxvus7cxxy"
-path="res://.godot/imported/3.png-d3f8fc7b3066ecf6943815e3380684a2.ctex"
+uid="uid://cdem43bq7jgb5"
+path="res://.godot/imported/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1j.png-c1adf428d3d708b589beea89168ca547.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://素材/背景/3.png"
-dest_files=["res://.godot/imported/3.png-d3f8fc7b3066ecf6943815e3380684a2.ctex"]
+source_file="res://素材/level 1/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1j.png"
+dest_files=["res://.godot/imported/set-8bit-pixel-graphics-icons-260nw-2241047175-removebg-preview-1j.png-c1adf428d3d708b589beea89168ca547.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dpkc0apc1n54y"
-path="res://.godot/imported/chuan.png-8ec8451478ab6fe63fa84110eb671e0d.ctex"
+uid="uid://47er1x1r240h"
+path="res://.godot/imported/黑边.png-e04606fd359a5335b56aef3d4ec258d9.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://素材/背景/chuan.png"
-dest_files=["res://.godot/imported/chuan.png-8ec8451478ab6fe63fa84110eb671e0d.ctex"]
+source_file="res://素材/level 1/黑边.png"
+dest_files=["res://.godot/imported/黑边.png-e04606fd359a5335b56aef3d4ec258d9.ctex"]
 
 [params]
 

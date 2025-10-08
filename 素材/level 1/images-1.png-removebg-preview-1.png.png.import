@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://47er1x1r240h"
-path="res://.godot/imported/黑边.png-3380632b805c07dcc288cd9e8fdaf9c2.ctex"
+uid="uid://b41c66o5gv8t0"
+path="res://.godot/imported/images-1.png-removebg-preview-1.png.png-ccc123a1fbfc81e97832987a7d641563.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://素材/背景/黑边.png"
-dest_files=["res://.godot/imported/黑边.png-3380632b805c07dcc288cd9e8fdaf9c2.ctex"]
+source_file="res://素材/level 1/images-1.png-removebg-preview-1.png.png"
+dest_files=["res://.godot/imported/images-1.png-removebg-preview-1.png.png-ccc123a1fbfc81e97832987a7d641563.ctex"]
 
 [params]
 

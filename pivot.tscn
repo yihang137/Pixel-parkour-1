@@ -1,7 +1,7 @@
 [gd_scene load_steps=6 format=3 uid="uid://db3qe0ax6xy5a"]
 
 [ext_resource type="Script" uid="uid://cdoke10ot3kxv" path="res://arm.gd" id="1_8a8fp"]
-[ext_resource type="Texture2D" uid="uid://dr7nssl3klob7" path="res://素材/背景/图片_20250911120642_137_27-removebg-preview-1.png.png" id="2_qbqea"]
+[ext_resource type="Texture2D" uid="uid://dr7nssl3klob7" path="res://素材/level 1/图片_20250911120642_137_27-removebg-preview-1.png.png" id="2_qbqea"]
 
 [sub_resource type="CircleShape2D" id="CircleShape2D_idc05"]
 radius = 6.08276
